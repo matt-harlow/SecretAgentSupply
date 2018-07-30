@@ -15,7 +15,6 @@ body {
 	}
 }
 
-
 h1, h4 {
 	color: white;
 	font-weight: bold;
@@ -82,6 +81,30 @@ h1, h4 {
 	font-size: 2rem;
 	font-weight: bold;
 	margin: 0.25rem 0;
+}
+
+@media only screen and (max-width: 470px) {
+	
+	.main-banner {
+		height: 15rem;
+	}
+
+	.main-banner .container {
+		padding-top: 10rem;
+	}
+
+	.headline {
+		width: 100%;
+		padding: 1rem 2rem;
+	}
+
+	.headline h4 {
+		font-size: 0.77rem;
+	}
+
+	.headline h1 {
+		font-size: 1rem;
+	}
 }
 
 /* Nav Bar */
@@ -157,12 +180,12 @@ nav ul {
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 470px) {
 	.product {
 		width: 90%;
+		margin: 0 auto;
 	}
 
-	.product.glasses,
     .product.watch {
     	display: none;
   }
@@ -190,6 +213,17 @@ nav ul {
 	display: block;
 }
 
+@media only screen and (max-width: 470px) {
+	.business-info {
+		flex-wrap: wrap;
+	}
+
+	.info {
+		width: 90%;
+		margin: 0.5rem auto;
+	}
+}
+
 /* Footer */
 
 footer {
@@ -201,9 +235,9 @@ footer {
 }
 
 @media only screen and (max-width: 470px) {
-  footer {
-    text-align: center;
-  }
+	footer {
+		text-align: center;
+	}
 }
 
 
